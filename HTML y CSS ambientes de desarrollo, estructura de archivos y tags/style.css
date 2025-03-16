@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+
 * {
     padding: 0;
     margin:0;
@@ -18,4 +21,24 @@ body{
 .presentacion {
     display: flex;
     align-items: center;
+    margin: 10%;
+    justify-content: space-between;
+}
+.presentacion-texto {
+    margin-left: 20px;
+    width: 615px;
+    font-family: "Roboto Slab", monospace;
+}
+
+.presentacion-titulo {
+    font-size: 36px;
+}
+.presentacion-contenido{
+    font-size: 24px;
+}
+
+.container-enlaces{
+    width: 280px;
+    text-align: center;
+    background-color: #22D4FD;
 }
